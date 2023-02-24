@@ -1,0 +1,39 @@
+name: Scrape on Schedule
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '45 * * * *'
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  do-scrape:
+
+    env:
+      UNIFI_API_BASE_URL: "${{ secrets.UNIFI_API_BASE_URL }}"
+      UNIFI_API_USERNAME: "${{ secrets.UNIFI_API_USERNAME }}"
+      UNIFI_API_PASSWORD: "${{ secrets.UNIFI_API_PASSWORD }}"
+      BOTO3_ENDPOINT_URL: "${{ secrets.BOTO3_ENDPOINT_URL }}"
+      BOTO3_ACCESS_KEY: "${{ secrets.BOTO3_ACCESS_KEY }}"
+      BOTO3_SECRET_KEY: "${{ secrets.BOTO3_SECRET_KEY }}"
+      BOTO3_BUCKET: "${{ secrets.BOTO3_BUCKET }}"
+    name: Full Scrape
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip' # caching pip dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install .
+      - name: Run script
+        run: python scripts/do_scrape.py

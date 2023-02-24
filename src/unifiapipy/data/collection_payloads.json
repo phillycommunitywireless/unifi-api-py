@@ -1,0 +1,218 @@
+{
+  "required_additional_payload_keys": {
+    "selected_site_id": "default",
+    "selected_output_method": "json"
+  },
+  "payloads": {
+    "stat_sites": {
+      "selected_collection_method": "stat_sites",
+      "selected_collection_label": "+all+sites+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_5minutes_site": {
+      "selected_collection_method": "stat_5minutes_site",
+      "selected_collection_label": "+5+minutes+site+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_hourly_site": {
+      "selected_collection_method": "stat_hourly_site",
+      "selected_collection_label": "+hourly+site+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_daily_site": {
+      "selected_collection_method": "stat_daily_site",
+      "selected_collection_label": "+daily+site+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_monthly_site": {
+      "selected_collection_method": "stat_monthly_site",
+      "selected_collection_label": "+monthly+site+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_5minutes_aps": {
+      "selected_collection_method": "stat_5minutes_aps",
+      "selected_collection_label": "+5+minutes+access+point+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_hourly_aps": {
+      "selected_collection_method": "stat_hourly_aps",
+      "selected_collection_label": "+hourly+access+point+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_daily_aps": {
+      "selected_collection_method": "stat_daily_aps",
+      "selected_collection_label": "+daily+access+point+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_monthly_aps": {
+      "selected_collection_method": "stat_monthly_aps",
+      "selected_collection_label": "+monthly+access+point+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_5minutes_gateway": {
+      "selected_collection_method": "stat_5minutes_gateway",
+      "selected_collection_label": "+5+minutes+gateway+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_hourly_gateway": {
+      "selected_collection_method": "stat_hourly_gateway",
+      "selected_collection_label": "+hourly+gateway+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_daily_gateway": {
+      "selected_collection_method": "stat_daily_gateway",
+      "selected_collection_label": "+daily+gateway+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "stat_monthly_gateway": {
+      "selected_collection_method": "stat_monthly_gateway",
+      "selected_collection_label": "+monthly+gateway+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "list_dashboard_5min": {
+      "selected_collection_method": "list_dashboard",
+      "selected_collection_label": "+5+minutes+site+dashboard+metrics+",
+      "selected_collection_params": "[true]",
+      "selected_collection_group": "Stats"
+    },
+    "list_dashboard_hour": {
+      "selected_collection_method": "list_dashboard",
+      "selected_collection_label": "+hourly+site+dashboard+metrics+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "list_health": {
+      "selected_collection_method": "list_health",
+      "selected_collection_label": "+site+health+metrics+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "list_portforward_stats": {
+      "selected_collection_method": "list_portforward_stats",
+      "selected_collection_label": "+port+forwarding+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "list_dpi_stats": {
+      "selected_collection_method": "list_dpi_stats",
+      "selected_collection_label": "+DPI+stats+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Stats"
+    },
+    "list_clients": {
+      "selected_collection_method": "list_clients",
+      "selected_collection_label": "+list+online+clients+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Clients"
+    },
+    "list_guests": {
+      "selected_collection_method": "list_guests",
+      "selected_collection_label": "+list+guests+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Clients"
+    },
+    "list_users": {
+      "selected_collection_method": "list_users",
+      "selected_collection_label": "+list+users+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Clients"
+    },
+    "list_usergroups": {
+      "selected_collection_method": "list_usergroups",
+      "selected_collection_label": "+list+user+groups+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Clients"
+    },
+    "stat_allusers": {
+      "selected_collection_method": "stat_allusers",
+      "selected_collection_label": "+stat+all+users+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Clients"
+    },
+    "stat_auths": {
+      "selected_collection_method": "stat_auths",
+      "selected_collection_label": "+stat+authorisations+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Clients"
+    },
+    "stat_sessions": {
+      "selected_collection_method": "stat_sessions",
+      "selected_collection_label": "+stat+sessions+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Clients"
+    },
+    "list_devices": {
+      "selected_collection_method": "list_devices",
+      "selected_collection_label": "+list+devices+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Devices"
+    },
+    "list_wlan_groups": {
+      "selected_collection_method": "list_wlan_groups",
+      "selected_collection_label": "+list+wlan+groups+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Devices"
+    },
+    "list_apgroups": {
+      "selected_collection_method": "list_apgroups",
+      "selected_collection_label": "+list+AP+groups+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Devices"
+    },
+    "list_rogueaps": {
+      "selected_collection_method": "list_rogueaps",
+      "selected_collection_label": "+list+rogue+access+points+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Devices"
+    },
+    "list_known_rogueaps": {
+      "selected_collection_method": "list_known_rogueaps",
+      "selected_collection_label": "+list+known+rogue+access+points+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Devices"
+    },
+    "list_device_name_mappings": {
+      "selected_collection_method": "list_device_name_mappings",
+      "selected_collection_label": "+list+device+name+mappings+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Devices"
+    },
+    "list_alarms": {
+      "selected_collection_method": "list_alarms",
+      "selected_collection_label": "+list+alarms+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Messages"
+    },
+    "count_alarms": {
+      "selected_collection_method": "count_alarms",
+      "selected_collection_label": "+count+all+alarms+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Messages"
+    },
+    "count_alarms": {
+      "selected_collection_method": "count_alarms",
+      "selected_collection_label": "+count+archived+alarms+",
+      "selected_collection_params": "[true]",
+      "selected_collection_group": "Messages"
+    },
+    "list_events": {
+      "selected_collection_method": "list_events",
+      "selected_collection_label": "+list+events+",
+      "selected_collection_params": "[]",
+      "selected_collection_group": "Messages"
+    }
+  }
+}
